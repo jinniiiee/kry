@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to KRY</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+KRY status poller
+<ul id="service-list">
+</ul>
+<h2> Add new URL </h2>
+<label> Name : </label>
+<input type="text" id="url-name">
+<label> URL : </label>
+<input type="text" id="url-val">
+<button id="post-service">Add</button>
+
+</body>
+<script src="static/code.js"></script>
+<script src="static/service.js"></script>
+</html>
